@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+}
+.main{
+
+    padding-bottom: 1em;
+}
+input{
+    height: 3em;
+    width: 25em;
+    border:1px solid #464653;
+    padding: 0 0.5em 0 0.5em;
+}
+.load{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 4em;
+
+}
+.card{
+    display:  flex;
+    justify-content: center;
+    padding:1.5em 0 1.5em 0 ;
+    background-color: #464653;
+    margin:1em 2em 1em 2em ;
+    color: #ff9f1c;
+
+    font-weight: bold;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    height: 12em;
+    width: 17em;
+}
+h1{
+    color: #ff9f1c;
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em 0em 0.5em 0em;
+}
+img{
+    /* height: 5em;
+    width: 5em; */
+    font-size: 4em;
+
+}
+.search{
+display: flex;
+justify-content: center;
+    /* padding-left: 25em; */
+}
+.card-con{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info{
+    align-self: center;
+    padding-left: 0.2em;
+    padding-right: 3em;
+    font-size: 0.8em;
+}
+.info div{
+    padding: 0.2em;
+}
+.btn{
+    display:  flex;
+    justify-content: space-around;
+}
+button{
+    padding: 1em 2em 1em 2em;
+    background-color: #464653;
+    border: none;
+    color: #ff9f1c;
+    transition: ease 0.5s;
+}
+button:hover{
+    background-color: #ff9f1c;
+    color: #464653;
+}
+.name {
+    text-align: center;
+    color: #d90d29;
+
+}
